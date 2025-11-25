@@ -1,0 +1,8 @@
+<Directory "D:/laragon/www/api_token">
+    AllowOverride All
+    Require all granted
+</Directory>
+
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
